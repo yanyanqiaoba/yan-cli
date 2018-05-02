@@ -37,3 +37,4 @@ Thumbs.db
 /ref/
 /logs/
 yarn.lock
+.idea
