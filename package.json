@@ -1,6 +1,6 @@
 {
-  "name": "xiaohongshu-red-design-cli",
-  "version": "1.0.0",
+  "name": "petrel-cli",
+  "version": "0.0.1",
   "description": "A basic template of xiaohongshu QA's front end demo",
   "main": "bin/index.js",
   "bin": {
