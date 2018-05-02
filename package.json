@@ -1,7 +1,7 @@
 {
   "name": "petrel-cli",
-  "version": "0.0.1",
-  "description": "A basic template of xiaohongshu QA's front end demo",
+  "version": "0.0.2",
+  "description": "A basic template of xiaohongshu QA's front end cli",
   "main": "bin/index.js",
   "bin": {
     "yan-cli": "./bin/index.js"
