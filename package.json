@@ -1,0 +1,25 @@
+{
+  "name": "xiaohongshu-red-design",
+  "version": "1.0.0",
+  "description": "A basic template of xiaohongshu QA's front end demo",
+  "main": "index.js",
+  "bin": {
+    "yan-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanyanqiaoba/yan-cli.git"
+  },
+  "keywords": [
+    "yan-cli"
+  ],
+  "author": "13770522081@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanyanqiaoba/yan-cli/issues"
+  },
+  "homepage": "https://github.com/yanyanqiaoba/yan-cli#readme"
+}
