@@ -138,7 +138,7 @@ class ${upperTableName} extends PureComponent {
   };
 
   remove(key) {
-    const newData = this.state.data.filter(item => item.key !== key);
+    const newData = this.props.data.filter(item => item.key !== key);
     this.props.dispatchAction({
       type:'${lowerTableName}/setTableDataAction',
       payload:newData,
