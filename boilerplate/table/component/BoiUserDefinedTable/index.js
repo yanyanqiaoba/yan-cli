@@ -250,7 +250,6 @@ class ${upperTableName} extends PureComponent {
     } else {
       const newData = this.props.data.map(item => ({ ...item }));
       const target = this.getRowByKey(key, newData);
-      debugger;
       this.setState({
         tableModalVisible: true,
         tableModalRowData: target,
