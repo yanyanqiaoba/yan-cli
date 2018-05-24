@@ -1,6 +1,6 @@
 {
   "name": "petrel-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A basic template of xiaohongshu QA's front end cli",
   "main": "bin/index.js",
   "bin": {
