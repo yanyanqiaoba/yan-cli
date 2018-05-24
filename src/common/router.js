@@ -110,6 +110,10 @@ export const getRouterData = app => {
 
       const routerConfig = {
         // ${addRoute no delete!}
+    '/yanPage': {
+      component: dynamicWrapper(app, ['yanForm'], () => import('../routes/YanPage/index')),
+    },
+
         '/myPage': {
           component: dynamicWrapper(app, ['myTable'], () => import('../routes/MyPage/index')),
         },
