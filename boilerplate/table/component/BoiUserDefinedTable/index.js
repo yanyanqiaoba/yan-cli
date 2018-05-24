@@ -80,7 +80,7 @@ class ${upperTableName} extends PureComponent {
   }
 
   handleFieldChange(e, fieldName, key) {
-    const newData = this.state.data.map(item => ({ ...item }));
+    const newData = this.props.data.map(item => ({ ...item }));
     const target = this.getRowByKey(key, newData);
     if (target) {
       target[fieldName] = e.target.value;
